@@ -1,0 +1,29 @@
+name: Lime Log
+version: "0.1.0"
+slug: lime_log
+description: Log which Lime scooters and e-bikes the crew has ridden in Cologne
+url: https://github.com/UnrealPinguin/Lime-Tracking-WebApp
+
+# The Supervisor substitutes {arch}, giving lime-log-aarch64 on a Raspberry Pi.
+image: ghcr.io/unrealpinguin/lime-log-{arch}
+arch:
+  - aarch64
+
+# The image brings its own init (tini), so the Supervisor should not add one.
+init: false
+startup: application
+boot: auto
+
+ports:
+  3001/tcp: 3001
+ports_description:
+  3001/tcp: Web interface — point the Cloudflare tunnel at this
+
+# Read-write access to Home Assistant's /share folder, used once to import an existing
+# database. See DOCS.md.
+map:
+  - type: share
+    read_only: false
+
+options: {}
+schema: {}
