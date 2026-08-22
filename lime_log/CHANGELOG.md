@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+Let an expired Access session recover instead of stranding the app.
+
 ## 0.1.1
 
 Fix the image never starting: `tsx` and `drizzle-kit` were missing because `NODE_ENV` was
