@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+Log in with an email and a password instead of Cloudflare Access
+
 ## 0.1.2
 
 Let an expired Access session recover instead of stranding the app.
