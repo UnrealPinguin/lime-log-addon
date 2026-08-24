@@ -1,5 +1,5 @@
 name: Lime Log
-version: "0.2.0"
+version: "0.3.0"
 slug: lime_log
 description: Log which Lime scooters and e-bikes the crew has ridden in Cologne
 url: https://github.com/UnrealPinguin/Lime-Tracking-WebApp

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0
+
+Een bekende scooter voelt nu ook als een bekende scooter (0.3.0)
+
 ## 0.2.0
 
 Log in with an email and a password instead of Cloudflare Access
