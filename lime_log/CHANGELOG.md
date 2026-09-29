@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1
+
+Merge pull request #1 from UnrealPinguin/claude/hetzner-move-and-hardening
+
 ## 0.3.0
 
 Een bekende scooter voelt nu ook als een bekende scooter (0.3.0)
